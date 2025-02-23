@@ -1,0 +1,323 @@
+[
+    {
+        "example_query": "Show me all the open public procurement tenders compatible with Company A1 whose requirements are 'execution cost < 20k eur; company size < 50'",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "public procurement",
+            "parameter": "open tenders",
+            "aggregate": "count",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "Company A1",
+            "constraints": [
+                {
+                    "parameter": "execution cost",
+                    "value": "less than 20k eur"
+                },
+                {
+                    "parameter": "company size",
+                    "value": "less than 50"
+                }
+            ],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "open tenders"
+        }
+    },
+    {
+        "example_query": "What was the SME participation rate in public procurement procedures last year in (Europe / a specific country)?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "public procurement",
+            "parameter": "SME participation rate",
+            "aggregate": "count",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "Europe",
+                "specific_location": ""
+            },
+            "time": "last year",
+            "query": "SME participation rate"
+        }
+    },
+    {
+        "example_query": "What are  the 5 european countries with higher rate of SME participation in public procurement procedures?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "public procurement",
+            "parameter": "SME participation rate",
+            "aggregate": "highest",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "Europe",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "5 countries with highest SME participation rate"
+        }
+    },
+    {
+        "example_query": "What are the main elements and factors with impact on SME participation in public procurement procedures?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "public procurement",
+            "parameter": "SME participation rate",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "elements and factors",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "factors affecting SME participation rate"
+        }
+    },
+    {
+        "example_query": "What was the SME success rate in public procurement procedures last year in (Europe / a specific country)?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "public procurement",
+            "parameter": "SME success rate",
+            "aggregate": "count",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "Europe",
+                "specific_location": ""
+            },
+            "time": "last year",
+            "query": "SME success rate"
+        }
+    },
+    {
+        "example_query": "What is the SME participation rate in public procurement procedures for CPV X in (Europe / a specific country)?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "public procurement",
+            "parameter": "SME participation rate",
+            "aggregate": "count",
+            "description": {
+                "event": "",
+                "reference": "CPV X",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "Europe",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "SME participation rate"
+        }
+    },
+    {
+        "example_query": "What are the 10 contracting entities with higher rate of SME participation in public procurement procedures for CPV X in (Europe / a specific country)?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "public procurement",
+            "parameter": "SME participation rate",
+            "aggregate": "highest",
+            "description": {
+                "event": "",
+                "reference": "CPV X",
+                "sentiment": ""
+            },
+            "entity": "10 contracting entities",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "Europe",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "10 contracting entities with highest SME participation rate"
+        }
+    },
+    {
+        "example_query": "What are the 10 contracting entities with higher rate of SME success in public procurement procedures  in (Europe / a specific country)?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "public procurement",
+            "parameter": "SME success rate",
+            "aggregate": "highest",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "10 contracting entities",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "Europe",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "10 contracting entities with highest SME success rate"
+        }
+    },
+    {
+        "example_query": "What are the main elements and factors with impact on SME participation and success in public procurement procedures?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "public procurement",
+            "parameter": "SME participation rate, SME success rate",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "elements and factors",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "factors affecting SME participation rate and SME success rate"
+        }
+    },
+    {
+        "example_query": "What is the SME success rate in public procurement procedures in contracting entity X for CPV Y?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "public procurement",
+            "parameter": "SME success rate",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "CPV Y",
+                "sentiment": ""
+            },
+            "entity": "contracting entity X",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "SME success rate"
+        }
+    },
+    {
+        "example_query": "What was the number of contracts awarded to SME last year in contracting entity X?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "public procurement",
+            "parameter": "SME contracts awarded",
+            "aggregate": "count",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "contracting entity X",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "last year",
+            "query": "SME contracts awarded"
+        }
+    },
+    {
+        "example_query": "What was the global amount awarded to SME last year in contracting entity X for CPV Y?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "public procurement",
+            "parameter": "global SME amount awarded",
+            "aggregate": "count",
+            "description": {
+                "event": "",
+                "reference": "CPV Y",
+                "sentiment": ""
+            },
+            "entity": "contracting entity X",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "last year",
+            "query": "global SME amount awarded"
+        }
+    }
+]

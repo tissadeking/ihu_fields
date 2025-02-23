@@ -1,0 +1,158 @@
+[
+    {
+        "example_query": "When and where wildfires were registered in South Tyrol in the last Y years?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "green deal",
+            "parameter": "times and places",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "wildfires",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "South Tyrol",
+                "specific_location": ""
+            },
+            "time": "last Y years",
+            "query": "times and places of wildfires"
+        }
+    },
+    {
+        "example_query": "Can you search for news on wildfires impacts/damages of the last Y years in South Tyrol?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "green deal",
+            "parameter": "news on wildfire impacts/damages",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "wildfires",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": "impacts/damages"
+            },
+            "location": {
+                "main_location": "South Tyrol",
+                "specific_location": ""
+            },
+            "time": "last Y years",
+            "query": "news on wildfires impacts"
+        }
+    },
+    {
+        "example_query": "Can I see the detailed burnt area of wildfire W?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "green deal",
+            "parameter": "burnt area",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "wildfire W",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "burnt area"
+        }
+    },
+    {
+        "example_query": "Can I see the detailed burnt area of wildfire W, with exposure data (roads, building, pop.density, etc)?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "green deal",
+            "parameter": "burnt area",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "wildfire W, exposure data (roads, building, pop.density, etc)",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "burnt area with exposure data"
+        }
+    },
+    {
+        "example_query": "Can I see the detailed burnt area of wildfire W, with exposure data (roads, building, pop.density, etc), if wildfire W happened today?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "green deal",
+            "parameter": "burnt area",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "wildfire W, exposure data (roads, building, pop.density, etc)",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "burnt area with exposure data if wildfire W happened today"
+        }
+    },
+    {
+        "example_query": "What are the areas of current/future high wildfires likelihood in this Area of Interest (AoI) ?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "green deal",
+            "parameter": "areas of wildfire likelihood",
+            "aggregate": "high",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": "the Area of Interest"
+            },
+            "time": "",
+            "query": "areas of high wildfire likelihood"
+        }
+    }
+]

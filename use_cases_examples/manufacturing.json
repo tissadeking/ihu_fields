@@ -1,0 +1,704 @@
+[
+    {
+        "example_query": "What are the common causes of quality control rejections?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "quality control rejections",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "causes of quality control rejections"
+        }
+    },
+    {
+        "example_query": "How has the on-time delivery rate changed over the past six months?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "on-time delivery rate",
+            "aggregate": "change",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "past six months",
+            "query": "change in on-time delivery rate"
+        }
+    },
+    {
+        "example_query": "What was the average aluminum consumption per order last month?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "aluminium consumption per order",
+            "aggregate": "average",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "last month",
+            "query": "average aluminium consumption per order"
+        }
+    },
+    {
+        "example_query": "What is the error rate in the pre-press stage?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "error rate",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "pre-press stage",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "error rate in pre-press stage"
+        }
+    },
+    {
+        "example_query": "How many times did the offset press need recalibration last month?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "recalibration",
+            "aggregate": "frequency",
+            "description": {
+                "event": "",
+                "reference": "offset press",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "last month",
+            "query": "recalibration frequency of offset press"
+        }
+    },
+    {
+        "example_query": "What is the total print volume produced this year?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "produced print volume",
+            "aggregate": "total",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "this year",
+            "query": "total print volume produced"
+        }
+    },
+    {
+        "example_query": "What percentage of orders were completed ahead of schedule last month?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "percentage of punctual orders",
+            "aggregate": "percentage",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "last month",
+            "query": "percentage of punctual orders"
+        }
+    },
+    {
+        "example_query": "What is the most common cause of machine downtime?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "machine downtime",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "most common cause of machine downtime"
+        }
+    },
+    {
+        "example_query": "What is the current backlog of orders?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "backlog of orders",
+            "aggregate": "count",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "backlog of orders"
+        }
+    },
+    {
+        "example_query": "What is the average humidity level maintained in the warehouse?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "humidity level",
+            "aggregate": "average",
+            "description": {
+                "event": "",
+                "reference": "warehouse",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "average humidity level"
+        }
+    },
+    {
+        "example_query": "How many new customers were acquired this quarter?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "new customers",
+            "aggregate": "count",
+            "description": {
+                "event": "",
+                "reference": "warehouse",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "this quarter",
+            "query": "new customers"
+        }
+    },
+    {
+        "example_query": "How often are the printing machines serviced?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "printing machines servicing",
+            "aggregate": "frequency",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "printing machines service frequency"
+        }
+    },
+    {
+        "example_query": "What is the average turnaround time for urgent orders?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "urgent orders turnaround time",
+            "aggregate": "average",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "average turnaround time for urgent orders"
+        }
+    },
+    {
+        "example_query": "What is the peak production hour in the factory?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "peak production hour",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "factory",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "peak production hour in the factory"
+        }
+    },
+    {
+        "example_query": "What is the average storage time for completed orders in the warehouse?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "completed orders storage time",
+            "aggregate": "average",
+            "description": {
+                "event": "",
+                "reference": "warehouse",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "average storage time of completed orders"
+        }
+    },
+    {
+        "example_query": "How many orders have been delayed due to supply chain issues this year?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "delayed orders",
+            "aggregate": "count",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "supply chain issues",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "this year",
+            "query": "delayed orders"
+        }
+    },
+    {
+        "example_query": "How many offset printing machines are currently operational?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "operational printing machines",
+            "aggregate": "count",
+            "description": {
+                "event": "",
+                "reference": "offset",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "operational offset printing machines"
+        }
+    },
+    {
+        "example_query": "What is the percentage of orders that required reprinting due to errors?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "orders requiring reprinting",
+            "aggregate": "percentage",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "errors",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "orders requiring reprinting"
+        }
+    },
+    {
+        "example_query": "How many hours are spent on preventive maintenance each month?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "hours of preventive maintenance",
+            "aggregate": "count",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "each month",
+            "query": "hours of preventive maintenance"
+        }
+    },
+    {
+        "example_query": "How many orders were processed with custom color matching?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "processed orders",
+            "aggregate": "count",
+            "description": {
+                "event": "",
+                "reference": "custom color matching",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "processed orders"
+        }
+    },
+    {
+        "example_query": "How many times did environmental conditions fall out of the optimal range this year?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "environmental conditions off optimal range",
+            "aggregate": "count",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "this year",
+            "query": "processed orders"
+        }
+    },
+    {
+        "example_query": "How many print jobs required manual intervention last month?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "print jobs requiring manual intervention",
+            "aggregate": "count",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "last month",
+            "query": "print jobs requiring manual intervention"
+        }
+    },
+    {
+        "example_query": "What is the percentage of orders processed with recycled materials?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "processed orders",
+            "aggregate": "percentage",
+            "description": {
+                "event": "",
+                "reference": "recycled materials",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "percentage of orders processed"
+        }
+    },
+    {
+        "example_query": "What is the average time taken for a quality control check?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "quality control check duration",
+            "aggregate": "average",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "average quality control check duration"
+        }
+    },
+    {
+        "example_query": "What is the average time taken for a quality control check?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "orders",
+            "aggregate": "count",
+            "description": {
+                "event": "",
+                "reference": "high-gloss paper",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "orders using high-gloss paper"
+        }
+    },
+    {
+        "example_query": "What is the percentage of orders that included multiple print runs?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "orders that included multiple print runs",
+            "aggregate": "percentage",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "orders that included multiple print runs"
+        }
+    },
+    {
+        "example_query": "How many orders included customer-provided artwork?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "orders",
+            "aggregate": "count",
+            "description": {
+                "event": "",
+                "reference": "customer-provided artwork",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "orders that included customer-provided artwork"
+        }
+    }
+]

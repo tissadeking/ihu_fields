@@ -1,0 +1,470 @@
+[
+    {
+        "example_query": "Which specific locations or points of interest (POIs) in the Isere department/Mallorca are mentioned in social media comments?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "tourism",
+            "parameter": "specific locations",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "social media comments",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "Isere department/Mallorca",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "specific locations in comments"
+        }
+    },
+    {
+        "example_query": "Are the names of locations in Isere/Mallorca associated with terms related to overcrowding (e.g., 'too crowded', 'packed')?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "tourism",
+            "parameter": "specific locations",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "overcrowding",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "Isere department/Mallorca",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "specific locations related to overcrowding"
+        }
+    },
+    {
+        "example_query": "Which POIs in Isere/Mallorca are frequently mentioned in relation to overcrowding?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "tourism",
+            "parameter": "specific locations",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "overcrowding mentions",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "Isere department/Mallorca",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "specific locations frequently with overcrowding mentions"
+        }
+    },
+    {
+        "example_query": "During which periods of the year are these locations in Isere/Mallorca mentioned as being overcrowded?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "tourism",
+            "parameter": "periods of the year",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "overcrowding mentions",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "Isere department/Mallorca",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "periods of the year that specific locations have overcrowding mentions"
+        }
+    },
+    {
+        "example_query": "What is the tone of the comments mentioning crowded locations in Isere/Mallorca?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "tourism",
+            "parameter": "sentiment",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "overcrowding mentions",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "Isere department/Mallorca",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "sentiment in overcrowding mentions of specific locations"
+        }
+    },
+    {
+        "example_query": "Are negative sentiments (exasperation, frustration) often associated with specific locations in Isere during particular periods?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "tourism",
+            "parameter": "specific locations",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": "negative, exasperation, frustration"
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "Isere",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "correlate negative sentiments with specific locations in various periods"
+        }
+    },
+    {
+        "example_query": "Which events or special situations in Isere cause an increase in attendance at certain locations?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "tourism",
+            "parameter": "attendance",
+            "aggregate": "increase",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "events or special situations",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "Isere",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "events causing increase attendance in Isere"
+        }
+    },
+    {
+        "example_query": "Are there recurring periods when specific locations in Isere/Mallorca are reported as overcrowded?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "tourism",
+            "parameter": "recurring periods",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "overcrowding",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "Isere/Mallorca",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "recurring periods with overcrowding in specific locations"
+        }
+    },
+    {
+        "example_query": "Which locations or POIs in Isere/Mallorca are compared with each other in terms of crowd levels?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "tourism",
+            "parameter": "crowd level",
+            "aggregate": "equal",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "Isere/Mallorca",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "specific locations with equal crowd levels"
+        }
+    },
+    {
+        "example_query": "Which POIs in Isere/Mallorca are most frequently described as 'crowded' compared to others?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "tourism",
+            "parameter": "specific locations",
+            "aggregate": "frequent",
+            "description": {
+                "event": "",
+                "reference": "overcrowding",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "Isere/Mallorca",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "frequent specific locations with overcrowding"
+        }
+    },
+    {
+        "example_query": "What local or informal expressions are used to describe crowded places in Isere/Mallorca?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "tourism",
+            "parameter": "informal expressions",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "overcrowding",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "Isere/Mallorca",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "informal expressions for crowded places"
+        }
+    },
+    {
+        "example_query": "Do users geolocate their comments when talking about crowded places in Isere/Mallorca?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "tourism",
+            "parameter": "geolocation of comments by users",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "geolocation of comments, crowded places",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "Isere/Mallorca",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "geolocation of comments by users for crowded places"
+        }
+    },
+    {
+        "example_query": "Can we correlate location data with overcrowding mentions to identify hotspots in Isere/Mallorca?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "tourism",
+            "parameter": "hotspots",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "overcrowding mentions",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": "hotspots"
+            },
+            "location": {
+                "main_location": "Isere/Mallorca",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "correlate specific location with overcrowding mentions"
+        }
+    },
+    {
+        "example_query": "Do users indicate a desire to avoid certain places in Isere/Mallorca due to crowd levels?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "tourism",
+            "parameter": "crowd levels",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "Isere/Mallorca",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "users avoiding location due to crowd levels"
+        }
+    },
+    {
+        "example_query": "What advice is given to avoid overcrowded places in Isere/Mallorca?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "tourism",
+            "parameter": "advice",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "overcrowding",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "Isere/Mallorca",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "advice to avoid overcrowded places"
+        }
+    },
+    {
+        "example_query": "Do the comments allow tracking of the crowd levels at locations in Isere/Mallorca over time?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "tourism",
+            "parameter": "crowd levels",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "comments",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "Isere/Mallorca",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "crowd levels at specific locations"
+        }
+    },
+    {
+        "example_query": "Can we detect variations in attendance in Isere/Mallorca based on weather conditions or local events?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "tourism",
+            "parameter": "attendance",
+            "aggregate": "variations",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "weather conditions, local events",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "Isere/Mallorca",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "correlate rate of attendance with weather conditions, correlate rate of attendance with local events"
+        }
+    },
+    {
+        "example_query": "Which social networks generate the most comments about crowded places in Isere/Mallorca?",
+        "fields": {
+            "intent_type": "exploratory",
+            "data": "tourism",
+            "parameter": "social networks",
+            "aggregate": "most",
+            "description": {
+                "event": "",
+                "reference": "comments, crowded places",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "Isere/Mallorca",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": "social networks with most comments"
+        }
+    }
+]
