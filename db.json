@@ -1,0 +1,148 @@
+{
+    "fields": {
+        "general_fields_format": {
+            "intent_type": "",
+            "data": "",
+            "parameter": "",
+            "aggregate": "",
+            "description": {
+                "event": "",
+                "reference": "",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [
+                {
+                    "parameter": "",
+                    "value": ""
+                }
+            ],
+            "influence": {
+                "cause": "",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "",
+            "query": ""
+        },
+        "tourism_fields": {
+            "intent_type": "exploratory",
+            "data": "tourism",
+            "parameter": "rate of attendance, crowd level, comments about crowded places on social media, social media comments",
+            "aggregate": "count, highest, increase",
+            "description": {
+                "event": "",
+                "reference": "geolocation of comments",
+                "sentiment": "tone of comments, negative sentiments, exasperation, frustration, advice to avoid overcrowded places"
+            },
+            "entity": "",
+            "constraints": [
+                {
+                    "parameter": "",
+                    "value": ""
+                }
+            ],
+            "influence": {
+                "cause": "events, special situations",
+                "effect": "hotspot, desire to avoid"
+            },
+            "location": {
+                "main_location": "Isere department/Mallorca",
+                "specific_location": ""
+            },
+            "time": "last year",
+            "query": "advice to avoid overcrowded places, specific locations with overcrowding mentions, correlate negative sentiments with specific locations in various periods, events causing increase attendance in Isere, users avoiding location due to crowd levels, specific locations with equal crowd levels, correlate rate of attendance with weather conditions, correlate rate of attendance with local events"
+        },
+        "green_deal_fields": {
+            "intent_type": "exploratory",
+            "data": "green deal",
+            "parameter": "news on wildfires impacts/damages, droughts, heatwaves",
+            "aggregate": "count, highest, increase",
+            "description": {
+                "event": "heatwave H, wildfire W, drought D",
+                "reference": "exposure data (roads, building, pop density, etc), exposure data (daylight pop.density, demographic data / elderly people, etc), exposure data (land-use, livestock, population, etc)",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [
+                {
+                    "parameter": "",
+                    "value": ""
+                }
+            ],
+            "influence": {
+                "cause": "",
+                "effect": "impact"
+            },
+            "location": {
+                "main_location": "South Tyrol",
+                "specific_location": ""
+            },
+            "time": "last year, last 4 years",
+            "query": "evaluate heatwave likelihood, wildfire likelihood, predict heatwave likelihood"
+        },
+        "procurement_fields": {
+            "intent_type": "exploratory",
+            "data": "public procurement",
+            "parameter": "rate of SME participation, SME success rate, SME, amount of money awarded for orders, SME contracts",
+            "aggregate": "count, highest",
+            "description": {
+                "event": "",
+                "reference": "CPV X, CPV Y",
+                "sentiment": ""
+            },
+            "entity": "Company A1, 10 contracting entities, entity X",
+            "constraints": [
+                {
+                    "parameter": "execution cost",
+                    "value": "less than 20k eur"
+                },
+                {
+                    "parameter": "company size",
+                    "value": "less than 50"
+                }
+            ],
+            "influence": {
+                "cause": "elements and factors",
+                "effect": ""
+            },
+            "location": {
+                "main_location": "5 EU countries",
+                "specific_location": ""
+            },
+            "time": "last year",
+            "query": "SME success rate"
+        },
+        "manufacturing_fields": {
+            "intent_type": "exploratory",
+            "data": "manufacturing",
+            "parameter": "quality control rejections, on-time delivery rate, aluminium consumption per order, error rate, recalibration frequency, print volume, percentage of punctual orders, machine downtime, backlog of orders, humidity level, new customers, printing machines service, turnaround time for urgent orders, peak production hour, cancelled orders, storage time of completed orders, delayed orders, operational offset printing machines, percentage of reprinted orders, quality control inspections per order, preventive maintenance hours, paper waste per order, processed orders, capacity utilisation rate, environmental conditions off optimal range, ink waste per order, print jobs requiring manual intervention, processed orders, orders requiring special handling or packaging, quality control check duration, orders, percentage of orders requiring multiple print runs",
+            "aggregate": "count, highest, increase, average, sum, percentage, frequency, peak period, optimal range",
+            "description": {
+                "event": "",
+                "reference": "pre-press stage, offset press, warehouse, factory, custom colour matching, recycled materials, high-gloss paper, customer-provided artwork",
+                "sentiment": ""
+            },
+            "entity": "",
+            "constraints": [
+                {
+                    "parameter": "",
+                    "value": ""
+                }
+            ],
+            "influence": {
+                "cause": "common causes, supply chain issues, errors",
+                "effect": "impact"
+            },
+            "location": {
+                "main_location": "",
+                "specific_location": ""
+            },
+            "time": "last six months, last month, this quarter, this year, each month",
+            "query": "current capacity utilisation rate, new customers acquired"
+        }
+    }
+}
