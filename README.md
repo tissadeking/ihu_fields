@@ -14,4 +14,6 @@
 
 - Structured intents for the example queries above have been crafted.​
 
-- These example queries and their corresponding structured intents with Required Fields are contained in the folder ‘use_cases_examples’ in this repository.  
+- These example queries and their corresponding structured intents with Required Fields are contained in the folder ‘use_cases_examples’ in this repository.
+
+- An example of an analytical intent format is found inside the folder 'analytical_intents'.
