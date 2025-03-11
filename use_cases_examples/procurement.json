@@ -31,7 +31,8 @@
                 "specific_location": ""
             },
             "time": "",
-            "query": "open tenders"
+            "query": "open tenders",
+            "intent_id": "XGTHSU45"
         }
     },
     {
@@ -57,7 +58,8 @@
                 "specific_location": ""
             },
             "time": "last year",
-            "query": "SME participation rate"
+            "query": "SME participation rate",
+            "intent_id": "XGTHSU45"
         }
     },
     {
@@ -83,7 +85,8 @@
                 "specific_location": ""
             },
             "time": "",
-            "query": "5 countries with highest SME participation rate"
+            "query": "5 countries with highest SME participation rate",
+            "intent_id": "XGTHSU45"
         }
     },
     {
@@ -109,7 +112,8 @@
                 "specific_location": ""
             },
             "time": "",
-            "query": "factors affecting SME participation rate"
+            "query": "factors affecting SME participation rate",
+            "intent_id": "XGTHSU45"
         }
     },
     {
@@ -135,7 +139,8 @@
                 "specific_location": ""
             },
             "time": "last year",
-            "query": "SME success rate"
+            "query": "SME success rate",
+            "intent_id": "XGTHSU45"
         }
     },
     {
@@ -161,7 +166,8 @@
                 "specific_location": ""
             },
             "time": "",
-            "query": "SME participation rate"
+            "query": "SME participation rate",
+            "intent_id": "XGTHSU45"
         }
     },
     {
@@ -187,7 +193,8 @@
                 "specific_location": ""
             },
             "time": "",
-            "query": "10 contracting entities with highest SME participation rate"
+            "query": "10 contracting entities with highest SME participation rate",
+            "intent_id": "XGTHSU45"
         }
     },
     {
@@ -213,7 +220,8 @@
                 "specific_location": ""
             },
             "time": "",
-            "query": "10 contracting entities with highest SME success rate"
+            "query": "10 contracting entities with highest SME success rate",
+            "intent_id": "XGTHSU45"
         }
     },
     {
@@ -239,7 +247,8 @@
                 "specific_location": ""
             },
             "time": "",
-            "query": "factors affecting SME participation rate and SME success rate"
+            "query": "factors affecting SME participation rate and SME success rate",
+            "intent_id": "XGTHSU45"
         }
     },
     {
@@ -265,7 +274,8 @@
                 "specific_location": ""
             },
             "time": "",
-            "query": "SME success rate"
+            "query": "SME success rate",
+            "intent_id": "XGTHSU45"
         }
     },
     {
@@ -291,7 +301,8 @@
                 "specific_location": ""
             },
             "time": "last year",
-            "query": "SME contracts awarded"
+            "query": "SME contracts awarded",
+            "intent_id": "XGTHSU45"
         }
     },
     {
@@ -317,7 +328,8 @@
                 "specific_location": ""
             },
             "time": "last year",
-            "query": "global SME amount awarded"
+            "query": "global SME amount awarded",
+            "intent_id": "XGTHSU45"
         }
     }
 ]
