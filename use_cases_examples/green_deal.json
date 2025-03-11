@@ -22,7 +22,8 @@
                 "specific_location": ""
             },
             "time": "last Y years",
-            "query": "times and places of wildfires"
+            "query": "times and places of wildfires",
+            "intent_id": "XGTHSU45"
         }
     },
     {
@@ -48,7 +49,8 @@
                 "specific_location": ""
             },
             "time": "last Y years",
-            "query": "news on wildfires impacts"
+            "query": "news on wildfires impacts",
+            "intent_id": "XGTHSU45"
         }
     },
     {
@@ -74,7 +76,8 @@
                 "specific_location": ""
             },
             "time": "",
-            "query": "burnt area"
+            "query": "burnt area",
+            "intent_id": "XGTHSU45"
         }
     },
     {
@@ -100,7 +103,8 @@
                 "specific_location": ""
             },
             "time": "",
-            "query": "burnt area with exposure data"
+            "query": "burnt area with exposure data",
+            "intent_id": "XGTHSU45"
         }
     },
     {
@@ -126,7 +130,8 @@
                 "specific_location": ""
             },
             "time": "",
-            "query": "burnt area with exposure data if wildfire W happened today"
+            "query": "burnt area with exposure data if wildfire W happened today",
+            "intent_id": "XGTHSU45"
         }
     },
     {
@@ -152,7 +157,8 @@
                 "specific_location": "the Area of Interest"
             },
             "time": "",
-            "query": "areas of high wildfire likelihood"
+            "query": "areas of high wildfire likelihood",
+            "intent_id": "XGTHSU45"
         }
     }
 ]
