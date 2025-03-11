@@ -1,4 +1,4 @@
-fields = {
+{
             "intent_type": "analytical",
             "data": "reference to data",
             "task": "classification, regression, etc",
@@ -14,4 +14,4 @@ fields = {
                 "new_data": "reference to new data"
             },
             "query": "summary of the query"
-        }
+}
