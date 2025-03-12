@@ -1,18 +1,23 @@
 {
             "intent_type": "analytical",
-            "data": "reference to data",
-            "task": "classification, regression, etc",
+            "data": ["reference to dataframe 1", "dataframe 2", "...."],
+            "task": "classification/regression, etc",
             "target": "target variable",
-            "specific_columns": "feature 1, feature 2, feature 3",
+            "specific_columns": ["feature 1", "feature 2", "feature 3"],
             "preprocessing_choice": "reshuffle the dataset",
-            "parameter_tuning": "yes/no",
-            "save_model": "yes/no",
-            "inference_saved_model": "name of model to use for inference",
-            "cluster_feature": "name of feature to perform clustering on",
+            "training": {
+                "save_model": "yes/no",
+            },
+            "inference": {
+                "inference_saved_model": "name of model to use for inference",
+            },
+            "clustering": {
+                "cluster_feature": "name of feature to perform clustering on",
+            },
             "anomaly_detection": {
                 "old_data": "reference to old data",
                 "new_data": "reference to new data"
             },
-            "query": "summary of the query",
+            "query": "summary of the query"
             "intent_id": "XGTHSU45"
 }
